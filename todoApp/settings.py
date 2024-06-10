@@ -16,7 +16,13 @@ SECRET_KEY = 'django-insecure-=)or69y31$w6f(mel0l96+ex4s=%isho0a-%#ac#a^y2)ecjl#
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
+CORS_ORIGIN_ALLOW_ALL = True
+# CORS_ALLOW_ALL_ORIGINS=True
+
+# CSRF_TRUSTED_ORIGINS = ['https://parcel-bird-backend-ykce.onrender.com']
+# Application definition
+
 
 
 # Application definition
